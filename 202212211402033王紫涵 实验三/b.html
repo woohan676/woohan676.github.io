@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>太空旅行动画</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* 隐藏滚动条 */
+            background-color: black; /* 背景色为黑色，模拟太空 */
+        }
+        /* 星星的样式 */
+        .star {
+            position: absolute;
+            background-color: white;
+            border-radius: 50%;
+            animation: twinkle 1.5s infinite; /* 星星闪烁动画 */
+        }
+        @keyframes twinkle {
+            0%, 100% {
+                opacity: 0.5;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+        /* 飞船的样式 */
+        .ship {
+            position: absolute;
+            width: 50px;
+            height: 30px;
+            background-color: blue; /* 初始颜色为蓝色 */
+            clip-path: polygon(0 0, 100% 50%, 0 100%); /* 创建一个三角形形状 */
+            transition: transform 0.5s, background-color 0.5s; /* 添加平滑过渡效果 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 飞船元素 -->
+    <div class="ship" id="ship"></div>
+
+    <script>
+        // 创建星星的函数
+        function createStar() {
+            const star = document.createElement('div');
+            star.className = 'star';
+            const size = Math.random() * 3 + 2; // 随机大小
+            star.style.width = `${size}px`;
+            star.style.height = `${size}px`;
+            star.style.top = `${Math.random() * window.innerHeight}px`;
+            star.style.left = `${Math.random() * window.innerWidth}px`;
+            document.body.appendChild(star);
+        }
+
+        // 生成多个星星
+        for (let i = 0; i < 100; i++) {
+            createStar();
+        }
+
+        const ship = document.getElementById('ship');
+
+        // 设置飞船初始位置
+        ship.style.top = '50%';
+        ship.style.left = '50%';
+        ship.style.transform = 'translate(-50%, -50%)'; // 中心对齐
+
+        // 点击事件：改变飞船的颜色和方向
+        ship.addEventListener('click', () => {
+            // 随机选择颜色
+            const colors = ['blue', 'red', 'green', 'yellow', 'purple'];
+            ship.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+
+            // 随机旋转飞船
+            const rotation = Math.floor(Math.random() * 360);
+            ship.style.transform = `translate(-50%, -50%) rotate(${rotation}deg)`; // 旋转飞船
+        });
+    </script>
+</body>
+</html>
