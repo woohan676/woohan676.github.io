@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
-    <h1><a href="https://woohan676.github.io/skills-github-pages/">skills-github-pages</a></h1>
+    <h1><a href="https://woohan676.github.io/"></a></h1>
       
 
       <h1 id="欢迎来到我的博客">欢迎来到我的博客</h1>
@@ -21,8 +21,8 @@
 <div id="popupMenu1" class="menu">
     <ul>
         <li><a href="https://woohan676.github.io/202212211402033 王紫涵实验一/三角形.html">任务1</a></li>
-        <li><a href="https://woohan676.github.io/202212211402033 王紫涵实验一/不同颜色三角形，四边形.html.html">任务2</a></li>
-        <li><a href="https://woohan676.github.io/202212211402033 王紫涵实验一/四边形.html.html">任务3</a></li>
+        <li><a href="https://woohan676.github.io/202212211402033 王紫涵实验一/不同颜色三角形，四边形.html">任务2</a></li>
+        <li><a href="https://woohan676.github.io/202212211402033 王紫涵实验一/四边形.html">任务3</a></li>
         <li><a href="https://woohan676.github.io/202212211402033 王紫涵实验一/相同颜色三角形，四边形.html">任务4</a></li>
     </ul>
 </div>
