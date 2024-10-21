@@ -7,8 +7,8 @@
   
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
-    <h1><a href="https://woohan676.github.io/"></a></h1>
-      <h1 id="欢迎来到我的个人网页">欢迎来到我的个人网页</h1>
+    <h1><a href="https://woohan676.github.io/" style="color: pink;"></a></h1>
+      <h1 id="欢迎来到我的个人网页" style="text-align: center;">欢迎来到我的个人网页</h1>
 	  <p></p>
       <h2 id="以下是计算机图形学作业">以下是计算机图形学作业</h2>
 <!-- HTML 部分 -->
@@ -65,7 +65,6 @@ h2{
 }
 h1{
 	color: pink;
-	text-align: center;
 }
 h3 {
     cursor: pointer;
