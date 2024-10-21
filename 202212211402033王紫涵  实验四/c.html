@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Square Rotation</title>
+  <style>
+    canvas {
+      border: 1px solid white;
+      display: block;
+      margin: 20px auto;
+    }
+    .control-container {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .control-label {
+      margin: 0 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <canvas id="myCanvas" width="600" height="600"></canvas>
+
+  <div class="control-container">
+    <label class="control-label">Rotate X:</label>
+    <input type="range" id="xRotation" min="0" max="360" value="0">
+    <label class="control-label">Rotate Y:</label>
+    <input type="range" id="yRotation" min="0" max="360" value="0">
+  </div>
+
+  <script src="4/3.js"></script>
+</body>
+</html>

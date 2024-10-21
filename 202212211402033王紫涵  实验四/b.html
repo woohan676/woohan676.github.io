@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>正方形平移</title>
+	<style>
+		body {
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    margin: 20px;
+		}
+		
+		#container {
+		    position: relative;
+		    width: 400px;
+		    height: 400px;
+		    border: 1px solid white;
+		    overflow: hidden;
+		}
+		
+		#square {
+		    position: absolute;
+		    width: 100px;
+		    height: 100px;
+		    background-color: pink;
+		    transition: transform 0.2s; 
+		}
+	</style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="square"></div>
+    </div>
+    <div>
+        <label for="x-offset">X方向平移（像素）：</label>
+        <input type="number" id="x-offset" value="0">
+        <label for="y-offset">Y方向平移（像素）：</label>
+        <input type="number" id="y-offset" value="0">
+        <button id="move-button">平移正方形</button>
+    </div>
+    <script src="4/2.js"></script>
+</body>
+</html>

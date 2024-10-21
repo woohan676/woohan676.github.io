@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绘制正方形</title>
+    <style>
+        canvas {
+            border: 1px solid white;
+        }
+        body {
+			
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>指定位置绘制正方形</h1>
+    <form id="squareForm">
+        <label for="x">X 坐标:</label>
+        <input type="number" id="x" required>
+        <label for="y">Y 坐标:</label>
+        <input type="number" id="y" required>
+        <label for="size">正方形大小:</label>
+        <input type="number" id="size" required>
+        <button type="submit">绘制正方形</button>
+    </form>
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+    <script src="4/1.js"></script>
+</body>
+</html>
