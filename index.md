@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
@@ -58,6 +57,7 @@ body {
     font-family: Arial, sans-serif;
 	background-color: black;
 	text-align: center;
+	text-decoration: none;
 }
 h2{
 	color: pink;
