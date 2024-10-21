@@ -57,14 +57,15 @@
 body {
     font-family: Arial, sans-serif;
 	background-color: ghostwhite;
-	text-align: center;
 	text-decoration: none;
 }
 h2{
 	color: pink;
+	text-align: center;
 }
 h1{
 	color: pink;
+	text-align: center;
 }
 h3 {
     cursor: pointer;
