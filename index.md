@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
+  
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
     <h1><a href="https://woohan676.github.io/"></a></h1>
@@ -55,7 +56,7 @@
 <style>
 body {
     font-family: Arial, sans-serif;
-	background-color: black;
+	background-color: ghostwhite;
 	text-align: center;
 	text-decoration: none;
 }
@@ -85,7 +86,7 @@ h3:hover {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
-    border: 1px solid pink;
+    border: 1px solid ghostwhite;
 	background-color: lightpink;
     border-radius: 5px;
     width: 200px;
