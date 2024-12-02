@@ -41,7 +41,6 @@
 </div>
 <p></p>
 <h3 id="Title4">作业4</h3>
-
 <div id="Menu4" class="menu">
     <ul>
         <li><a href="https://woohan676.github.io/202212211402033王紫涵  实验四/a.html">任务a</a></li>
@@ -49,6 +48,47 @@
         <li><a href="https://woohan676.github.io/202212211402033王紫涵  实验四/c.html">任务c</a></li>
         <li><a href="https://woohan676.github.io/202212211402033王紫涵  实验四/d.html">任务d</a></li>
         <li><a href="https://woohan676.github.io/202212211402033王紫涵  实验四/e.html">任务e</a></li>
+    </ul>
+</div>
+<p></p>
+<h3 id="Title5">作业4-2</h3>
+<div id="Menu5" class="menu">
+    <ul>
+        <li><a href="https://woohan676.github.io/202212211402033王紫涵 作业4-2/a.html">任务a</a></li>
+        <li><a href="https://woohan676.github.io/202212211402033王紫涵 作业4-2/b.html">任务b</a></li>
+        <li><a href="https://woohan676.github.io/202212211402033王紫涵 作业4-2/c.html">任务c</a></li>
+        <li><a href="https://woohan676.github.io/202212211402033王紫涵 作业4-2/d.html">任务d</a></li>
+    </ul>
+</div>
+<p></p>
+<h3 id="Title6">作业5</h3>
+<div id="Menu6" class="menu">
+    <ul>
+        <li><a href="https://woohan676.github.io/2022122114020336王紫涵 作业五/a.html">任务a</a></li>
+    </ul>
+</div>
+<p></p>
+<h3 id="Title7">作业6</h3>
+<div id="Menu7" class="menu">
+    <ul>
+        <li><a href="https://woohan676.github.io/2022122114020336王紫涵 作业6/a.html">任务a</a></li>
+        <li><a href="https://woohan676.github.io/2022122114020336王紫涵 作业6/b.html">任务b</a></li>
+        <li><a href="https://woohan676.github.io/2022122114020336王紫涵 作业6/c.html">任务c</a></li>
+    </ul>
+</div>
+<p></p>
+<h3 id="Title8">作业7</h3>
+<div id="Menu8" class="menu">
+    <ul>
+        <li><a href="https://woohan676.github.io/202212211402033王紫涵作业7-1/a.html">任务a</a></li>
+    </ul>
+</div>
+<p></p>
+<h3 id="Title9">作业7-2</h3>
+<div id="Menu9" class="menu">
+    <ul>
+        <li><a href="https://woohan676.github.io/2022122114020336王紫涵 作业7-2/a.html">任务a</a></li>
+        <li><a href="https://woohan676.github.io/2022122114020336王紫涵 作业7-2/b.html">任务b</a></li>
     </ul>
 </div>
 
@@ -135,6 +175,26 @@ document.getElementById('Title1').addEventListener('click', function() {
 });
  document.getElementById('Title4').addEventListener('click', function() {
     var menu = document.getElementById('Menu4');
+    menu.classList.toggle('show');
+});
+ document.getElementById('Title5').addEventListener('click', function() {
+    var menu = document.getElementById('Menu5');
+    menu.classList.toggle('show');
+});
+ document.getElementById('Title6').addEventListener('click', function() {
+    var menu = document.getElementById('Menu6');
+    menu.classList.toggle('show');
+});
+ document.getElementById('Title7').addEventListener('click', function() {
+    var menu = document.getElementById('Menu7');
+    menu.classList.toggle('show');
+});
+ document.getElementById('Title8').addEventListener('click', function() {
+    var menu = document.getElementById('Menu8');
+    menu.classList.toggle('show');
+});
+ document.getElementById('Title9').addEventListener('click', function() {
+    var menu = document.getElementById('Menu9');
     menu.classList.toggle('show');
 });
 </script>
